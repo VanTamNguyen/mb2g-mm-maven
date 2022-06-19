@@ -6,7 +6,7 @@
     <parent>
         <artifactId>mb2g-mm-maven</artifactId>
         <groupId>guru.springframework</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
 
     <artifactId>converters</artifactId>
@@ -24,14 +24,12 @@
         <dependency>
             <groupId>guru.springframework</groupId>
             <artifactId>web-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>guru.springframework</groupId>
             <artifactId>jpa-entities</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
